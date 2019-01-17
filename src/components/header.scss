@@ -1,0 +1,32 @@
+@import '../common/colors';
+
+.header {
+  height: 64px;
+  border-bottom: 1px solid $lightGray;
+  display: flex;
+  align-items: center;
+  padding: 8px 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  &-logo {
+    height: 100%;
+    margin: 0;
+  }
+  &-logo-link {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+    padding: 0 16px;
+  }
+  &-nav {
+    &-link {
+      margin: 0 16px;
+      font-weight: 700;
+      background-image: none;
+    }
+  }
+}
