@@ -2,18 +2,22 @@
 
 .header {
   height: 64px;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 2px solid $lightGray;
   display: flex;
   align-items: center;
-  padding: 8px 0px;
+  padding: 0;
   position: fixed;
   top: 0;
   width: 100%;
   background: white;
+
   &-logo {
     height: 100%;
     margin: 0;
+    min-width: 40px;
+    padding: 8px 0;
   }
+
   &-logo-link {
     height: 100%;
     display: flex;
@@ -22,11 +26,28 @@
     background-image: none;
     padding: 0 16px;
   }
+
   &-nav {
+    height: 100%;
+
     &-link {
       margin: 0 16px;
-      font-weight: 700;
+      font-weight: 400;
       background-image: none;
+      height: 100%;
+      display: inline-block;
+      position: relative;
+      padding: 24px 12px 0;
+
+      &:after {
+        content: '';
+        background: $green;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+      }
     }
   }
 }

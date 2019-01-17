@@ -27,6 +27,7 @@ const IndexPage = () => (
         the design tools.
       </li>
     </ul>
+    <button className="button-primary">Click me</button>
     <h2>Core ideas</h2>
     <h4>Only set the base (or body) font-size/line-height</h4>
     <p>

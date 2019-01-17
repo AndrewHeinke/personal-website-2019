@@ -1,0 +1,34 @@
+@import './colors.scss';
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.site-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+a {
+  color: $green !important;
+  text-decoration: none;
+  text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, $green 1px, #1ca086 2px, rgba(0, 0, 0, 0) 2px);
+  }
+
+button {
+  cursor: pointer;
+  border: none;
+  background: $lightGray;
+  padding: .5em 2em;
+  border-radius: 4px;
+}
+
+.button-primary {
+  font-size: 1em;
+  background: $green;
+  color: $white;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
