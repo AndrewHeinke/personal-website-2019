@@ -42,13 +42,19 @@
 
       &:after {
         content: '';
-        background: $green;
+        background:transparent;
         height: 2px;
         width: 100%;
         position: absolute;
         bottom: -2px;
         left: 0;
       }
+
+
     }
   }
+}
+
+.active-link {
+  background: $green;
 }

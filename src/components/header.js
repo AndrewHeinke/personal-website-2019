@@ -10,16 +10,16 @@ const Header = () => (
       <img className="header-logo" src={logo} alt="Andrew Heinke Logo" />
     </Link>
     <nav className="header-nav">
-      <Link className="header-nav-link" to="/about">
+      <Link activeClassName="active-link" className="header-nav-link" to="/about">
         About
       </Link>
-      <Link className="header-nav-link" to="/resume">
+      <Link activeClassName="active-link" className="header-nav-link" to="/resume">
         Resume
       </Link>
-      <Link className="header-nav-link" to="/portfolio">
+      <Link activeClassName="active-link" className="header-nav-link" to="/portfolio">
         Portfolio
       </Link>
-      <Link className="header-nav-link" to="/videos">
+      <Link activeClassName="active-link" className="header-nav-link" to="/videos">
         Videos
       </Link>
 

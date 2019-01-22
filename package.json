@@ -2,9 +2,9 @@
   "name": "gatsby-starter-default",
   "private": true,
   "description": "Personal website of Andrew Heinke",
-  "version": "8.4.0",
+  "version": "1.0.0",
   "engines": {
-    "node": "10.3.0"
+    "node": "8.4.0"
   },
   "author": "Andrew Heinke <andrew.j.heinke@gmail.com>",
   "dependencies": {
