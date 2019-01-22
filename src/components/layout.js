@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+import Container from './container'
+import Footer from './footer'
 import './layout.scss'
 
 const Layout = ({ children }) => (
@@ -18,17 +20,17 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 1200,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 56,
-          }}
-        >
-          {children}
-          <footer>© {new Date().getFullYear()}</footer>
+        <div className="site-wrapper">
+          <Header siteTitle={data.site.siteMetadata.title} />
+          <main
+            style={{
+              paddingTop: `64px`,
+              flex: `1`,
+            }}
+          >
+            <Container>{children}</Container>
+          </main>
+          <Footer />
         </div>
       </>
     )}

@@ -1,0 +1,13 @@
+@import '../common/colors.scss';
+
+footer {
+  background: $primaryBlack;
+  padding: 3em;
+  margin-top: 6em;
+  * {
+    color: $white;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
