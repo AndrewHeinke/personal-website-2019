@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import Container from './Container.js'
+import Container from './container'
 import './Footer.scss'
 
 const Footer = ({ children }) => (
