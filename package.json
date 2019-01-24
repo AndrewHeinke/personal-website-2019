@@ -4,7 +4,7 @@
   "description": "Personal website of Andrew Heinke",
   "version": "1.0.0",
   "engines": {
-    "node": "8.4.0"
+    "node": "9.4.0"
   },
   "author": "Andrew Heinke <andrew.j.heinke@gmail.com>",
   "dependencies": {
@@ -20,7 +20,7 @@
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
     "node-sass": "^4.11.0",
-    "npm": "^6.6.0",
+    "npm": "^6.7.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
