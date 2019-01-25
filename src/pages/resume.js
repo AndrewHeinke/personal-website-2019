@@ -17,32 +17,71 @@ const ResumePage = () => (
 A creative with coding skills, I create things that look good.</h2>
 		</div>
 	</div>
+  <div className="bg-wrapper">
+  <div className="container-0">
+		<ol className="timeline">
+		  <li>
+		    <p className="line">Work Experience</p>
+		    <span className="point"></span>
+		    <p className="description">
+		      UI Developer <a href="https://www.usaa.com/careers/design" target="_blank" rel="noopener noreferrer">@USAA</a>
+		    </p>
+		    <span className="date">Today - Apr. 2017</span>
+		  </li>
+
+		  <li>
+		    <span className="point"></span>
+		    <p className="description">
+		      Web Designer <a href="https://kasasa.com/" target="_blank" rel="noopener noreferrer">@Kasasa</a>
+		    </p>
+		    <span className="date">Apr. 2017 - Oct. 2015</span>
+		  </li>
+
+		  		  <li>
+		    <p className="line">Education</p>
+		    <span className="point"></span>
+		    <p className="description">
+		      UT Austin Coding Bootcamp
+		    </p>
+		    <span className="date">2016</span>
+		  </li>
+
+		  		  <li>
+		    <span className="point"></span>
+		    <p className="description">
+		      The University of Texas at Austin
+		    </p>
+		    <span className="date">2015 - 2011</span>
+		  </li>
+		</ol>
+	</div>
+  </div>
 	<div className="container">
 
 		<div className="sections">
 			<h2 className="section-title">Skills</h2>
 
 			<div className="list-card">
-				<span className="exp">+ 5 years</span>
+				<span className="exp">+ 8 years</span>
 				<div>
-					<h3>Object programming & frameworks</h3>
-					<span>PHP, Symfony, Laravel, Silex, …</span>
+					<h3>Design & Design Thinking</h3>
+					<span>Using design to solve problems and deliver value</span>
 				</div>
 			</div>
 
 			<div className="list-card">
-				<span className="exp">+ 3 years</span>
+				<span className="exp">+ 4 years</span>
 				<div>
-					<h3>Design integration</h3>
-					<span>Style and tools, JS Frameworks</span>
+					<h3>Coding Languages</h3>
+					<span>HTML, CSS, JavaScript, React.js, Node.js </span>
 				</div>
 			</div>
 
 			<div className="list-card">
-				<span className="exp">+ 6 years</span>
+				<span className="exp">+ 1 years</span>
 				<div>
-					<h3>Linux</h3>
-					<span>Scripting, Servers management and protocols, Automation</span>
+					<h3>Professional Karaoke Singer</h3>
+					<span>Known to perform classic hits like Soulja Boy's "Kiss Me Thru the Phone"</span>
 				</div>
 			</div>
 
@@ -53,15 +92,15 @@ A creative with coding skills, I create things that look good.</h2>
 
 				<div className="list-card">
 					<div>
-						<h3>Scripting languages</h3>
-						<span>PHP, JS, Bash, Python</span>
+						<h3>Painting</h3>
+						<span><a href="https://www.youtube.com/watch?v=U1-EdDAofqo" target="_blank" rel="noopener noreferrer">Watch me paint</a> in front of a camera (super cool)</span>
 					</div>
 				</div>
 
 				<div className="list-card">
 					<div>
-						<h3>Hacking</h3>
-						<span>Linux, Crawlers, Bots, Network</span>
+						<h3>Hiking</h3>
+						<span><a href="https://www.insidehimalayas.com/wp-content/uploads/2018/07/3local.jpg" target="_blank" rel="noopener noreferrer">Here</a>, <a href="https://cdn.fodors.com/wp-content/uploads/2018/09/HERo_MachuPicchu101_Hero_4_MachuPicchu101_WhereCanIGetBestPhoto_dreamstime_xxl_110067560_2_1.jpg" target="_blank" rel="noopener noreferrer">Here</a>, and <a href="https://www.nationalgeographic.com/content/dam/expeditions/destinations/north-america/private/Yosemite/Hero-Yosemite.jpg" target="_blank" rel="noopener noreferrer">Here</a></span>
 					</div>
 				</div>
 		</div>
@@ -122,44 +161,7 @@ A creative with coding skills, I create things that look good.</h2>
 
 	</div>
 
-	<div className="container">
-		<ol className="timeline">
-		  <li>
-		    <p className="line">Experiences</p>
-		    <span className="point"></span>
-		    <p className="description">
-		      Lead Developer @Geronimo
-		    </p>
-		    <span className="date">Today - Apr. 2016</span>
-		  </li>
 
-		  <li>
-		    <span className="point"></span>
-		    <p className="description">
-		      Freelance
-		    </p>
-		    <span className="date">Apr. 2016 - Sep. 2015</span>
-		  </li>
-
-		  		  <li>
-		    <p className="line">Education</p>
-		    <span className="point"></span>
-		    <p className="description">
-		      DUT "Métiers du multimédia et de l'internet"
-		    </p>
-		    <span className="date">2015 - 2013</span>
-		  </li>
-
-		  		  <li>
-		    <span className="point"></span>
-		    <p className="description">
-		      Art & Design studies
-		    </p>
-		    <span className="date">2013 - 2008</span>
-		  </li>
-		</ol>
-
-	</div>
   </div>
   </FluidLayout>
 );
