@@ -183,7 +183,7 @@
     width: 0;
     height: 0;
     border-radius: 10px;
-    border: 0 solid #31708F;
+    border: 0 solid #5b6a9a;
   }
 
   ol::before {
@@ -194,7 +194,7 @@
     right: -10px;
     border: 0 solid transparent;
     border-right: 0;
-    border-left: 20px solid #31708F;
+    border-left: 20px solid #5b6a9a;
     border-radius: 3px;
   }
   /* ---- Timeline elements ---- */
@@ -211,11 +211,12 @@
 
   li .line {
     position: absolute;
-    top: -47px;
+    top: -56px;
     left: 1%;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 600;
     color: #04143A;
+    margin: 0;
   }
 
   li .point {
@@ -244,18 +245,12 @@
     font-weight: 600;
     line-height: 25px;
     color: #5B6A9A;
-  }
-
-  .description::before {
-    content: '';
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 5px solid #f4f4f4;
-    position: absolute;
-    top: -5px;
-    left: 43%;
+    a {
+      background-image: none;
+      text-shadow: none;
+      text-decoration: underline;
+      font-weight: 400;
+    }
   }
 
   .timeline .date {

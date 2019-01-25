@@ -21,7 +21,7 @@ A creative with coding skills, I create things that look good.</h2>
   <div className="container-0">
 		<ol className="timeline">
 		  <li>
-		    <p className="line">Work Experience</p>
+		    <h3 className="line">Work Experience</h3>
 		    <span className="point"></span>
 		    <p className="description">
 		      UI Developer <a href="https://www.usaa.com/careers/design" target="_blank" rel="noopener noreferrer">@USAA</a>
@@ -38,7 +38,7 @@ A creative with coding skills, I create things that look good.</h2>
 		  </li>
 
 		  		  <li>
-		    <p className="line">Education</p>
+		    <h3 className="line">Education</h3>
 		    <span className="point"></span>
 		    <p className="description">
 		      UT Austin Coding Bootcamp
@@ -80,7 +80,7 @@ A creative with coding skills, I create things that look good.</h2>
 			<div className="list-card">
 				<span className="exp">+ 1 years</span>
 				<div>
-					<h3>Professional Karaoke Singer</h3>
+					<h3>Karaoke Singer</h3>
 					<span>Known to perform classic hits like Soulja Boy's "Kiss Me Thru the Phone"</span>
 				</div>
 			</div>
