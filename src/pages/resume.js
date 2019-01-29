@@ -15,7 +15,7 @@ const ResumePage = () => (
 			<h1 className="job-title">Resume</h1>
 			<span className="email">andrew.j.heinke@gmail.com</span>
 
-			<h2 className="lead">Half designer, half developer. <span role="img" aria-label="Powered">🔋</span> by <span role="img" aria-label="Tacos">🌮</span> & Pop-Tarts.
+			<h2 className="lead">Half designer, half developer. <span className="nowrap"><span role="img" aria-label="Powered">🔋</span> by <span role="img" aria-label="Tacos">🌮</span> & Pop-Tarts. </span> 
 A creative with coding skills, I create things that look good.</h2>
 		</div>
 	</div>

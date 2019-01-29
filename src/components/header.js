@@ -43,6 +43,8 @@ const Menu = styled.div`
       line-height: 1.5;
       width: 100%;
       margin: 0;
+      background-image: none;
+      text-shadow: none;
   }
   }
 `
