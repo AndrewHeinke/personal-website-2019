@@ -459,7 +459,7 @@ $skill5: #27ae60;
 }
 
 .job-wrapper {
-  border-bottom: 1px solid #D9DBE1;
+  border-bottom: 1px solid $lightGray;
   p {
     &:last-child {
           margin-bottom: 2.175rem;
@@ -475,7 +475,7 @@ a.company {
 
 .line {
   padding-bottom: 8px;
-  border-bottom: 1px solid #D9DBE1;
+  border-bottom: 1px solid $lightGray;
 }
 
 footer {

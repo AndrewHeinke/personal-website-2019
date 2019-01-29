@@ -65,7 +65,7 @@ A creative with coding skills, I create things that look good.</h2>
 	</div>
   </div>
 	<div className="container">
-  <h3 class="line">Interests</h3>
+  <h3 className="line">Interests</h3>
   <Row>
 
     <Col md={6}>
@@ -108,8 +108,8 @@ A creative with coding skills, I create things that look good.</h2>
 
     <div className="skill-bar-container">
       <span className="skill-name">React</span>
-      <span className="skill-percent">85%</span>
-      <span className="skill-bar level3"></span>
+      <span className="skill-percent">90%</span>
+      <span className="skill-bar level4"></span>
     </div>
 
     <div className="skill-bar-container">
