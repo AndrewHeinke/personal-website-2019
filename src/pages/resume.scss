@@ -1,9 +1,10 @@
+@import '../common/colors.scss';
+
 .resume {
   .container {
     max-width: 1100px;
     height: auto;
     margin: 60px auto;
-    padding: 5px;
   }
 
   .hero {
@@ -16,6 +17,7 @@
     display: inline-block;
     margin: 0;
     line-height: 1;
+    margin-top: 40px;
   }
 
   .job-title {
@@ -27,9 +29,9 @@
     border-radius: 26px;
     display: inline-block;
     position: absolute;
-    top: 30px;
+    top: -22px;
     padding: 8px 16px;
-    left: -160px;
+    left: 0;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -60,7 +62,7 @@
   .section-title {
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     margin-top: 0;
   }
 
@@ -75,14 +77,10 @@
   }
 
   .list-card .exp {
-    margin-right: 15px;
+    margin-right: 16px;
     color: #4A90E2;
     font-weight: 600;
     width: 100px;
-  }
-
-  .list-card div {
-    width: 70%;
   }
 
   .list-card h3 {
@@ -145,8 +143,8 @@
     display: inline-block;
     max-width: 300px;
     text-align: left;
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-top: 16px;
+    margin-left: 16px;
   }
 
   .skill-meta h3 {
@@ -268,7 +266,7 @@
   /* Media queries*/
   @media(max-width: 1024px) {
     .container {
-      padding: 15px;
+      padding: 16px;
       margin:  2.175rem auto;
     }
 
@@ -282,12 +280,12 @@
   }
   @media(max-width: 768px) {
     .container {
-      padding: 15px;
+      padding: 16px;
       margin: 2.175rem auto;
     }
 
     .card {
-      padding: 15px;
+      padding: 16px;
       text-align: left;
     }
 
@@ -312,12 +310,15 @@
       margin-top: 70px;
       height: 150px;
     }
+
+  .skills-title {
+        top: -95px;
+  }
   }
   @media(max-width: 425px) {
     .name {
       font-size: 40px;
     }
-
     .card,
     .sections {
       width: 100%;
@@ -332,21 +333,19 @@
 
     .job-title {
       position: absolute;
-      font-size: 15px;
-      top: -40px;
-      right: 20px;
+      font-size: 16px;
       padding: 10px;
     }
 
     .lead {
-      margin-top: 15px;
+      margin-top: 16px;
       font-size: 20px;
       line-height: 28px;
     }
 
     .container {
       margin-top: 2.175rem;
-      padding: 0 15px;
+      padding: 0 16px;
     }
 
     footer {
@@ -355,11 +354,130 @@
   }
   .bg-wrapper {
     background-color: rgb(238, 240, 247);
-    padding: 80px 0 120px;
+    padding: 40px 0 120px;
   }
   .container-0 {
     max-width: 1100px;
     height: auto;
     margin: 0 auto;
   }
+  @media(max-width: 1024px) {
+    .container-0 {
+      padding: 0 16px;
+    }
+  }
+}
+
+//The skill bars
+
+$skill1: $red;
+$skill2: #c8e7f8;
+$skill3: #27ae60;
+$skill4: #27ae60;
+$skill5: #27ae60;
+
+.skills-container {
+  background-color: $primaryBlack;
+  padding: 24px;
+  position: relative;
+  margin-top: 120px;
+}
+.skill-bar-container {
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #222722;
+    margin-bottom: 3em;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .skill-bar {
+        display: block;
+        border-radius: 6px;
+        height: 6px;
+            &.level1 { width: 20%; background-color: $skill1}
+            &.level2 { width: 80%; background-color: $skill5}
+            &.level3 { width: 85%; background-color: $skill5}
+            &.level4 { width: 90%; background-color: $skill5}
+            &.level5 { width: 100%; background-color: $skill5 }
+    }
+    .skill-name {
+        position: absolute;
+        top: -25px;
+        left: 5px;
+        color: $white;
+        font-weight: 400;
+    }
+    .skill-percent {
+      position: absolute;
+      top: -25px;
+      right: 5px;
+      color: $white;
+      font-weight: 400;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+   .container:before {
+      left: 8px;
+      width: 2px;
+   }
+   .timeline-block {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+   .timeline-block-right {
+      float: none;
+   }
+
+   .timeline-block-left {
+      float: none;
+      direction: ltr;
+   }
+}
+
+.skills-title {
+  color: $primaryBlack;
+  position: absolute;
+  top: -112px;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.time {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.job {
+  margin-bottom: 8px;
+}
+
+.job-wrapper {
+  border-bottom: 1px solid #D9DBE1;
+  p {
+    &:last-child {
+          margin-bottom: 2.175rem;
+    }
+  }
+}
+
+a.company {
+  background-image: none;
+  text-decoration: underline;
+  text-shadow: none;
+}
+
+.line {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #D9DBE1;
+}
+
+footer {
+  margin-top: 0;
 }
