@@ -1,6 +1,7 @@
 import React from 'react';
 import FluidLayout from '../components/fluid-layout'
 import SEO from '../components/seo'
+import { Row, Col } from 'react-grid-system'
 import './resume.scss';
 
 const ResumePage = () => (
@@ -58,56 +59,57 @@ A creative with coding skills, I create things that look good.</h2>
   </div>
 	<div className="container">
 
-		<div className="sections">
-			<h2 className="section-title">Skills</h2>
+  <Row>
+    <Col md={6}>
+      <h2 className="section-title">Skills</h2>
 
-			<div className="list-card">
-				<span className="exp">+ 8 years</span>
-				<div>
-					<h3>Design & Design Thinking</h3>
-					<span>Using design to solve problems and deliver value</span>
-				</div>
-			</div>
+      <div className="list-card">
+        <span className="exp">+ 8 years</span>
+        <div>
+          <h3>Design & Design Thinking</h3>
+          <span>Using design to solve problems and deliver value</span>
+        </div>
+      </div>
 
-			<div className="list-card">
-				<span className="exp">+ 4 years</span>
-				<div>
-					<h3>Coding Languages</h3>
-					<span>HTML, CSS, JavaScript, React.js, Node.js </span>
-				</div>
-			</div>
+      <div className="list-card">
+        <span className="exp">+ 4 years</span>
+        <div>
+          <h3>Coding Languages</h3>
+          <span>HTML, CSS, JavaScript, React.js, Node.js </span>
+        </div>
+      </div>
 
-			<div className="list-card">
-				<span className="exp">+ 1 years</span>
-				<div>
-					<h3>Karaoke Singer</h3>
-					<span>Known to perform classic hits like Soulja Boy's "Kiss Me Thru the Phone"</span>
-				</div>
-			</div>
+      <div className="list-card">
+        <span className="exp">+ 1 years</span>
+        <div>
+          <h3>Karaoke Singer</h3>
+          <span>Known to perform classic hits like Soulja Boy's "Kiss Me Thru the Phone"</span>
+        </div>
+      </div>
+    </Col>
+    <Col md={6}>
+      <h2 className="section-title">Interests</h2>
 
+      <div className="list-card">
+        <div>
+          <h3>Painting</h3>
+          <span><a href="https://www.youtube.com/watch?v=U1-EdDAofqo" target="_blank" rel="noopener noreferrer">Watch me paint</a> in front of a camera (super cool)</span>
+        </div>
+      </div>
 
-		</div>
-		<div className="sections">
-				<h2 className="section-title">Interests</h2>
-
-				<div className="list-card">
-					<div>
-						<h3>Painting</h3>
-						<span><a href="https://www.youtube.com/watch?v=U1-EdDAofqo" target="_blank" rel="noopener noreferrer">Watch me paint</a> in front of a camera (super cool)</span>
-					</div>
-				</div>
-
-				<div className="list-card">
-					<div>
-						<h3>Hiking</h3>
-						<span><a href="https://www.insidehimalayas.com/wp-content/uploads/2018/07/3local.jpg" target="_blank" rel="noopener noreferrer">Here</a>, <a href="https://cdn.fodors.com/wp-content/uploads/2018/09/HERo_MachuPicchu101_Hero_4_MachuPicchu101_WhereCanIGetBestPhoto_dreamstime_xxl_110067560_2_1.jpg" target="_blank" rel="noopener noreferrer">Here</a>, and <a href="https://www.nationalgeographic.com/content/dam/expeditions/destinations/north-america/private/Yosemite/Hero-Yosemite.jpg" target="_blank" rel="noopener noreferrer">Here</a></span>
-					</div>
-				</div>
-		</div>
+      <div className="list-card">
+        <div>
+          <h3>Hiking</h3>
+          <span><a href="https://www.insidehimalayas.com/wp-content/uploads/2018/07/3local.jpg" target="_blank" rel="noopener noreferrer">Here</a>, <a href="https://cdn.fodors.com/wp-content/uploads/2018/09/HERo_MachuPicchu101_Hero_4_MachuPicchu101_WhereCanIGetBestPhoto_dreamstime_xxl_110067560_2_1.jpg" target="_blank" rel="noopener noreferrer">Here</a>, and <a href="https://www.nationalgeographic.com/content/dam/expeditions/destinations/north-america/private/Yosemite/Hero-Yosemite.jpg" target="_blank" rel="noopener noreferrer">Here</a></span>
+        </div>
+      </div>
+    </Col>
+  </Row>
 	</div>
 
 	<div className="container cards">
-
+  <Row>
+    <Col md={6}>
 		<div className="card">
 			<div className="skill-level">
 				<span>+</span>
@@ -120,7 +122,8 @@ A creative with coding skills, I create things that look good.</h2>
 			</div>
 		</div>
 
-
+    </Col>
+      <Col md={6}>
 		<div className="card">
 			<div className="skill-level">
 				<h2>50</h2>
@@ -132,8 +135,8 @@ A creative with coding skills, I create things that look good.</h2>
 				<span>Applications development integrating third-party services and mobile client(s)</span>
 			</div>
 		</div>
-
-
+    </Col>
+    <Col md={6}>
 		<div className="card">
 			<div className="skill-level">
 				<h2>30</h2>
@@ -145,8 +148,8 @@ A creative with coding skills, I create things that look good.</h2>
 				<span>Such as web services, scripts, configurations</span>
 			</div>
 		</div>
-
-
+    </Col>
+<Col md={6}>
 		<div className="card">
 			<div className="skill-level">
 				<h2>20</h2>
@@ -158,7 +161,8 @@ A creative with coding skills, I create things that look good.</h2>
 				<span>Web projects and ensure the quality of delivery</span>
 			</div>
 		</div>
-
+    </Col>
+    </Row>
 	</div>
 
 

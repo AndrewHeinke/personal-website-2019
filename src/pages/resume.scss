@@ -101,18 +101,16 @@
   }
 
   .cards {
-    max-width: 1120px;
     display: block;
-    margin-top: 280px;
   }
 
   .card {
-    width: 47.9%;
     height: 200px;
+    width: 100%;
     border: 1px solid #EEF0F7;
     background-color: #EEF0F7;
     display: inline-block;
-    margin: 7px 5px;
+    margin: 16px;
     vertical-align: top;
     border-radius: 10px;
     text-align: center;
@@ -286,10 +284,6 @@
     .container {
       padding: 15px;
       margin: 2.175rem auto;
-    }
-
-    .cards {
-      margin-top: 320px;
     }
 
     .card {

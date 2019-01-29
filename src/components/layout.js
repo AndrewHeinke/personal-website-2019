@@ -7,6 +7,7 @@ import Container from './container'
 import Footer from './footer'
 import './layout.scss'
 
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`

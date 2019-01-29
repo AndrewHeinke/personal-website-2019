@@ -1,242 +1,153 @@
 @import '../common/globals.scss';
 
-.testimonial-author-wrapper,.testimonial-wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+.testimonial-author-wrapper,
+.testimonial-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
 }
 
 .testimonial-wrapper {
-    position: relative;
-    margin-top: 4em;
-    display: flex;
-    max-width: 940px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 48px 32px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-top: 2px solid #f7f8f9;
-    border-right: 2px solid #f7f8f9;
-    border-left: 2px solid #f7f8f9;
-    border-radius: 4px;
-    background: #ffffff;
-    box-shadow: 1px 2px 6px 0 rgba(0,0,0,.13);
-    text-align: center;
-    h4 {
-      margin-top: 0;
-      position: relative;
-      &:before {
-        content: '';
-        background: $lightGray;
-        width: 30px;
-        height: 3px;
-        position: absolute;
-        top: -26px;
-        left: 0;
-        right: 0;
-        margin: auto;
+  position: relative;
+  margin-top: 4em;
+  display: flex;
+  max-width: 940px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 48px 32px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 2px solid #f7f8f9;
+  border-right: 2px solid #f7f8f9;
+  border-left: 2px solid #f7f8f9;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 1px 2px 6px 0 rgba(0,0,0,.13);
+  text-align: center;
 
-      }
+  h4 {
+    margin-top: 0;
+    position: relative;
+
+    &:before {
+      content: '';
+      background: $lightGray;
+      width: 30px;
+      height: 3px;
+      position: absolute;
+      top: -26px;
+      left: 0;
+      right: 0;
+      margin: auto;
     }
+  }
 }
 
-.testimonial-blue-line,.visual-for-styleguide {
-    background-color: $green;
+.testimonial-blue-line,
+.visual-for-styleguide {
+  background-color: $green;
 }
 
 .testimonial-wrapper.use-case {
-    padding: 32px 70px
+  padding: 32px 70px;
 }
 
 .testimonial-author-wrapper {
-    display: flex;
-    margin-top: 15px;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start
+  display: flex;
+  margin-top: 15px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .testimonial-blue-line {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 2px;
-    margin-right: -1px;
-    margin-left: -1px
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  margin-right: -1px;
+  margin-left: -1px;
 }
 
-
 .testimonial-wrapper-bare {
-    position: relative;
-    margin-right: 60px;
-    margin-left: 60px
+  position: relative;
+  margin-right: 60px;
+  margin-left: 60px;
 }
 
 .quotes-bare-left {
-    position: absolute;
-    left: -8%;
-    top: 20%
+  position: absolute;
+  left: -8%;
+  top: 20%;
 }
 
 .quote-bare-right {
-    position: absolute;
-    top: 20%;
-    right: -8%;
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg)
+  position: absolute;
+  top: 20%;
+  right: -8%;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .customer-story-testimonial-quote-icon {
-    position: absolute;
-    left: 50%;
-    top: -20px;
-    -webkit-transform: translate(-50%,0);
-    -ms-transform: translate(-50%,0);
-    transform: translate(-50%,0)
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
 }
 
 .quote-icon {
-    position: absolute;
-    left: 33px;
-    top: -36px;
-    width: 74px;
-    svg {
-      width: 100%;
-    }
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  width: 74px;
+
+  svg {
+    width: 100%;
+  }
 }
 
 .quote-icon.bottom-quote {
-    left: auto;
-    top: auto;
-    right: 33px;
-    bottom: -53px;
-    -webkit-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
-    transform: rotate(-180deg)
+  left: auto;
+  top: auto;
+  right: 10px;
+  bottom: -12px;
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
 }
 
-
 .mobile-banner {
-    display: none
+  display: none;
 }
 
 .mobile-banner img {
-    width: 100%;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.23),0 10px 40px rgba(0,0,0,0.19)
+  width: 100%;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.23),0 10px 40px rgba(0,0,0,0.19);
 }
-
 @media screen and (max-width: 480px) {
-    .mobile-banner {
-        display:block
-    }
+  .mobile-banner {
+    display: block;
+  }
 }
 
-/* Our wrapper */
-.wrapper{
-  width: 900px;
-  height: 600px;
-  position: absolute;
-  left:50%;
-  top:50%;
-  transform:translate3d(-50%,-50%,0);
-  overflow:hidden;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-/* Our image information */
-.before,
-.after {
-  width:100%;
-  height:100%;
-  background-repeat:no-repeat;
-  background-color: white;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top:0;
-  left:0;
-  pointer-events:none;
-  overflow: hidden;
-}
-
-.content-image{
-  height:100%;
-}
-
-.after{
-  width:125px;
-}
-
-.scroller{
-  width: 50px;
-  height:50px;
-  position: absolute;
-  left:100px;
-  top:50%;
-  transform:translateY(-50%);
-  border-radius:50%;
-  background-color: transparent;
-  opacity:0.9;
-  pointer-events:auto;
-  cursor: pointer;
-}
-
-.scroller:hover{
-  opacity:1;
-}
-
-.scrolling{
-  pointer-events:none;
-  opacity:1;
-  // z-index: 1;
-}
-
-.scroller__thumb{
-  width:100%;
-  height:100%;
-  padding:5px;
-}
-
-.scroller:before,
-.scroller:after{
-  content:" ";
-  display: block;
-  width: 7px;
-  height: 9999px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3.5px;
-  z-index: 30;
-  transition:0.1s;
-}
-.scroller:before{
-  top:100%;
-}
-.scroller:after{
-  bottom:100%;
-}
-
-/* If you want to cahnge the colors, make sure you change the fill in the svgs to match */
-.scroller{
-  border: 5px solid #fff;
-}
-.scroller:before,
-.scroller:after{
-  background: #fff;
+.resp-iframe {
+  height: 300px;
 }
