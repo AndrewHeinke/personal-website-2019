@@ -1,10 +1,9 @@
 import React from 'react';
 import FluidLayout from '../components/fluid-layout'
 import SEO from '../components/seo'
-import { setConfiguration, Row, Col } from 'react-grid-system'
+import { Grid, Row, Col } from 'react-flexbox-grid';
 import './resume.scss';
 
-setConfiguration({ gutterWidth: 60 });
 const ResumePage = () => (
   <FluidLayout>
     <SEO title="Resume Andrew Heinke" keywords={[`resume`, `andrew`, `heinke`]} />
@@ -15,12 +14,12 @@ const ResumePage = () => (
 			<h1 className="job-title">Resume</h1>
 			<span className="email">andrew.j.heinke@gmail.com</span>
 
-			<h2 className="lead">Half designer, half developer. <span className="nowrap"><span role="img" aria-label="Powered">🔋</span> by <span role="img" aria-label="Tacos">🌮</span> & Pop-Tarts. </span> 
+			<h2 className="lead">Half designer, half developer. <span className="nowrap"><span role="img" aria-label="Powered">🔋</span> by <span role="img" aria-label="Tacos">🌮</span> & Pop-Tarts. </span>
 A creative with coding skills, I create things that look good.</h2>
 		</div>
 	</div>
   <div className="bg-wrapper">
-  <div className="container-0">
+  <Grid className="container-0" fluid>
   <Row>
     <Col md={6}>
     <div className="job-wrapper">
@@ -62,31 +61,10 @@ A creative with coding skills, I create things that look good.</h2>
         </div>
     </Col>
     </Row>
-	</div>
+    </Grid>
   </div>
-	<div className="container">
-  <h3 className="line">Interests</h3>
-  <Row>
-
-    <Col md={6}>
-
-
-      <div className="list-card">
-        <div>
-          <h3>Painting</h3>
-          <span><a href="https://www.youtube.com/watch?v=U1-EdDAofqo" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Watch me paint</a> in front of a camera (super cool)</span>
-        </div>
-      </div>
-      </Col>
-        <Col md={6}>
-      <div className="list-card">
-        <div>
-          <h3>Hiking</h3>
-          <span><a href="https://www.insidehimalayas.com/wp-content/uploads/2018/07/3local.jpg" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Here</a>, <a href="https://cdn.fodors.com/wp-content/uploads/2018/09/HERo_MachuPicchu101_Hero_4_MachuPicchu101_WhereCanIGetBestPhoto_dreamstime_xxl_110067560_2_1.jpg" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Here</a>, and <a href="https://www.nationalgeographic.com/content/dam/expeditions/destinations/north-america/private/Yosemite/Hero-Yosemite.jpg" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Here</a></span>
-        </div>
-      </div>
-    </Col>
-  </Row>
+  <div className="container">
+    <p className="notification">hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world</p>
 	</div>
 
 	<div className="skills-container">

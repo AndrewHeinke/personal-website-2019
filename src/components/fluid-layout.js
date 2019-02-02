@@ -26,6 +26,8 @@ const FluidLayout = ({ children }) => (
             style={{
               paddingTop: `64px`,
               flex: `1`,
+              display: `flex`,
+              flexDirection: `column`
             }}
           >
             {children}

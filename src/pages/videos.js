@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { Row, Col } from 'react-grid-system'
+import { Grid, Row, Col } from 'react-flexbox-grid';
 import Iframe from 'react-iframe'
 
 const VideosPage = ({}) => (
@@ -26,30 +26,32 @@ const VideosPage = ({}) => (
       While I am unable to publicly share the videos I made for work, I can
       share some I made for fun below.
     </p>
-    <Row>
-      <Col md={6}>
-        <h2>Painting</h2>
-        <Iframe
-          url="https://www.youtube.com/embed/videoseries?list=PLMPhsT8z1_A3ohmS9SQN1c8B1uEL8AX8o"
-          display="initial"
-          position="relative"
-          width="100%"
-          height="320px"
-          allowFullScreen
-        />
-      </Col>
-      <Col md={6}>
-        <h2>Speed Coding</h2>
-        <Iframe
-          url="https://www.youtube.com/embed/videoseries?list=PLMPhsT8z1_A3bWO-_vhB3BZ35IPErcPs-"
-          display="initial"
-          position="relative"
-          width="100%"
-          height="320px"
-          allowFullScreen
-        />
-      </Col>
-    </Row>
+    <Grid fluid>
+      <Row>
+        <Col md={6}>
+          <h2>Painting</h2>
+          <Iframe
+            url="https://www.youtube.com/embed/videoseries?list=PLMPhsT8z1_A3ohmS9SQN1c8B1uEL8AX8o"
+            display="initial"
+            position="relative"
+            width="100%"
+            height="320px"
+            allowFullScreen
+          />
+        </Col>
+        <Col md={6}>
+          <h2>Speed Coding</h2>
+          <Iframe
+            url="https://www.youtube.com/embed/videoseries?list=PLMPhsT8z1_A3bWO-_vhB3BZ35IPErcPs-"
+            display="initial"
+            position="relative"
+            width="100%"
+            height="320px"
+            allowFullScreen
+          />
+        </Col>
+      </Row>
+    </Grid>
   </Layout>
 )
 

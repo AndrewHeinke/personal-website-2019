@@ -27,6 +27,8 @@ const Layout = ({ children }) => (
             style={{
               paddingTop: `64px`,
               flex: `1`,
+              display: `flex`,
+              flexDirection: `column`
             }}
           >
             <Container>{children}</Container>

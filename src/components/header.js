@@ -14,7 +14,7 @@ const Menu = styled.div`
     display: inline;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     height: 100%;
     position: absolute;
     left: 0;
@@ -65,7 +65,7 @@ class Header extends Component {
           <ResponsiveMenu
             menuOpenButton={<MdMenu size={40} color="#0DAB76" />}
             menuCloseButton={<MdClose size={40} color="#0DAB76" />}
-            changeMenuOn="800px"
+            changeMenuOn="1000px"
             smallMenuClassName="mobile-menu"
             menu={
               <Menu>
@@ -104,6 +104,15 @@ class Header extends Component {
                       to="/videos/"
                     >
                       Videos
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      activeClassName="active-link"
+                      className="header-nav-link"
+                      to="/contact/"
+                    >
+                      Contact
                     </Link>
                   </li>
                 </ul>

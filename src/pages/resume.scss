@@ -5,6 +5,7 @@
     max-width: 1100px;
     height: auto;
     margin: 60px auto;
+    padding: 0 16px;
   }
 
   .hero {
@@ -263,21 +264,7 @@
     display: block;
   }
   /*timeline ends*/
-  /* Media queries*/
-  @media(max-width: 1024px) {
-    .container {
-      padding: 16px;
-      margin:  2.175rem auto;
-    }
 
-    .cards {
-      margin-top: 250px;
-    }
-
-    .card {
-      padding-top: 20px;
-    }
-  }
   @media(max-width: 768px) {
     .container {
       padding: 16px;
@@ -359,6 +346,7 @@
   .container-0 {
     max-width: 1100px;
     height: auto;
+    padding: 0 16px;
     margin: 0 auto;
   }
   @media(max-width: 1024px) {
@@ -378,7 +366,7 @@ $skill5: #27ae60;
 
 .skills-container {
   background-color: $primaryBlack;
-  padding: 24px;
+  padding: 24px 0;
   position: relative;
   margin-top: 120px;
 }
@@ -480,4 +468,10 @@ a.company {
 
 footer {
   margin-top: 0;
+}
+
+.notification {
+  border-radius: 4px;
+  border: 1px solid $lightGray;
+  padding: 12px 16px;
 }
