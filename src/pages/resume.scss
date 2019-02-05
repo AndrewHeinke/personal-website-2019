@@ -475,3 +475,10 @@ footer {
   border: 1px solid $lightGray;
   padding: 12px 16px;
 }
+
+.kata-link {
+  background-image: none;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}

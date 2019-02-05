@@ -21,16 +21,17 @@ const ContactPage = ({}) => (
             alt="Clapping hands 3d illustration characters"
           />
           <h1 className="contact-heading">Let's get in touch</h1>
+          <p>Want to know more about what I've been working on, shoot me an email and I would</p>
           <Grid>
             <Row>
               <Col lg={4}>
-                asdf
+                <p>Mobile: 210.882.0062</p>
               </Col>
               <Col lg={4}>
-                asdf
+                <p>Email: andrew.j.heinke@gmail.com</p>
               </Col>
               <Col lg={4}>
-                asdf
+                <p>Github: github.com/AndrewHeinke</p>
               </Col>
             </Row>
           </Grid>

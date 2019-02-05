@@ -63,15 +63,12 @@ A creative with coding skills, I create things that look good.</h2>
     </Row>
     </Grid>
   </div>
-  <div className="container">
-    <p className="notification">hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world</p>
-	</div>
-
 	<div className="skills-container">
   <div className="container">
   <h2 className="skills-title">Skills</h2>
   <Row>
     <Col md={12}>
+    <a className="kata-link" href="https://www.codewars.com/users/AndrewHeinke/"><img src='https://www.codewars.com/users/AndrewHeinke/badges/large' alt="Code Wars Kata Rank"/></a>
     <div className="skill-bar-container">
       <span className="skill-name">HTML5 & CSS</span>
       <span className="skill-percent">100%</span>
