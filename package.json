@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "author": "Andrew Heinke <andrew.j.heinke@gmail.com>",
   "dependencies": {
+    "@tippy.js/react": "^1.1.1",
     "animejs": "^3.0.1",
     "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.20",
@@ -20,6 +21,7 @@
     "npm": "^6.7.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
+    "react-anime": "^2.2.0",
     "react-dom": "^16.6.3",
     "react-flexbox-grid": "^2.1.2",
     "react-helmet": "^5.2.0",

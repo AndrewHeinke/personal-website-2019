@@ -25,13 +25,13 @@ const ContactPage = ({}) => (
           <Grid>
             <Row>
               <Col lg={4}>
-                <p>Mobile: 210.882.0062</p>
+                <p>210.882.0062</p>
               </Col>
               <Col lg={4}>
-                <p>Email: andrew.j.heinke@gmail.com</p>
+                <p>andrew.j.heinke@gmail.com</p>
               </Col>
               <Col lg={4}>
-                <p>Github: github.com/AndrewHeinke</p>
+                <p>github.com/AndrewHeinke</p>
               </Col>
             </Row>
           </Grid>
