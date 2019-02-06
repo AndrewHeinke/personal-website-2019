@@ -18,7 +18,7 @@ const IndexPage = ({ children }) => {
       <SEO title="Home" keywords={[`andrew`, `heinke`, `portfolio`]} />
 
       <div className="banner">
-        <h1><div className="kerning">
+        <h1 className="banner-title"><div className="kerning">
           <span className="kern">H</span>e
           <span className="kern">l</span>l
           <span className="kern">o</span>,
