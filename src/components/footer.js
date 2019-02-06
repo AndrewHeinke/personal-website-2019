@@ -4,8 +4,8 @@ import Container from './container'
 import './footer.scss'
 import { Row, Col } from 'react-flexbox-grid';
 import { FaCodepen, FaGithub, FaTwitter, FaInstagram, FaFacebook, FaAngellist, FaLinkedin } from 'react-icons/fa'
-import Tippy from '@tippy.js/react'
-import 'tippy.js/dist/tippy.css'
+import { Tooltip } from 'react-tippy';
+import 'react-tippy/dist/tippy.css'
 
 const Footer = ({ children }) => (
   <footer>
@@ -18,39 +18,60 @@ const Footer = ({ children }) => (
       <Col lg={6}>
         <ul className="footer-icon-list">
           <li>
-            <Tippy content="Codepen">
-              <a data-tippy="Tooltip" href="https://codepen.io/andrewheinke/"><FaCodepen size={40} color="#0DAB76" /></a>
-            </Tippy>
+            <Tooltip
+              title="Codepen"
+              position="top"
+            >
+              <a href="https://codepen.io/andrewheinke/"><FaCodepen size={40} color="#0DAB76" /></a>
+            </Tooltip>
           </li>
           <li>
-            <Tippy content="GitHub">
-              <a data-tippy="Tooltip" href="https://github.com/AndrewHeinke"><FaGithub size={40} color="#0DAB76" /></a>
-            </Tippy>
+          <Tooltip
+            title="GitHub"
+            position="top"
+          >
+              <a href="https://github.com/AndrewHeinke"><FaGithub size={40} color="#0DAB76" /></a>
+            </Tooltip>
           </li>
           <li>
-            <Tippy content="Instagram">
+          <Tooltip
+            title="Instagram"
+            position="top"
+          >
               <a href="https://www.instagram.com/andrewheinke/"><FaInstagram size={40} color="#0DAB76" /></a>
-            </Tippy>
+            </Tooltip>
           </li>
           <li>
-            <Tippy content="Facebook">
+          <Tooltip
+            title="Facebook"
+            position="top"
+          >
               <a href="https://www.facebook.com/andrew.heinke"><FaFacebook size={40} color="#0DAB76" /></a>
-            </Tippy>
+            </Tooltip>
           </li>
           <li>
-            <Tippy content="AngelList">
+          <Tooltip
+            title="AngelList"
+            position="top"
+          >
               <a href="https://angel.co/andrew-heinke"><FaAngellist size={40} color="#0DAB76" /></a>
-            </Tippy>
+            </Tooltip>
           </li>
           <li>
-            <Tippy content="Twitter">
+          <Tooltip
+            title="Twitter"
+            position="top"
+          >
               <a href="https://twitter.com/andrewheinke"><FaTwitter size={40} color="#0DAB76" /></a>
-            </Tippy>
+            </Tooltip>
           </li>
           <li>
-            <Tippy content="LinkedIn">
+          <Tooltip
+            title="LinkedIn"
+            position="top"
+          >
               <a href="https://www.linkedin.com/in/andrewheinke/"><FaLinkedin size={40} color="#0DAB76" /></a>
-            </Tippy>
+            </Tooltip>
           </li>
         </ul>
       </Col>

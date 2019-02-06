@@ -5,7 +5,6 @@
   "version": "1.0.0",
   "author": "Andrew Heinke <andrew.j.heinke@gmail.com>",
   "dependencies": {
-    "@tippy.js/react": "^1.1.1",
     "animejs": "^3.0.1",
     "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.20",
@@ -29,6 +28,7 @@
     "react-iframe": "^1.3.3",
     "react-pure-lifecycle": "^3.0.0",
     "react-responsive-navbar": "^1.0.11",
+    "react-tippy": "^1.2.3",
     "react-typography": "^0.16.18",
     "styled-components": "^4.1.3",
     "typography": "^0.16.18",
