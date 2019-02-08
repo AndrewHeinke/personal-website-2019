@@ -1,0 +1,115 @@
+@import '../common/colors.scss';
+
+.vertical-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  flex: 1;
+}
+.portfolio-wrapper {
+  display: flex;
+}
+.column {
+  height: calc(100vh - 224px);
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.primary-black {
+  background: $primaryBlack;
+}
+
+.column-padding {
+  padding: 0 32px;
+}
+
+.column-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-title {
+  color: #222722;
+  font-size: 4rem;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: -1rem;
+  position: absolute;
+  right: 32px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  text-shadow: -0.02em -2px 0 #F22613, 0.02em 2px 0px #00FFFF;
+  white-space: nowrap;
+}
+.projects-paragraph-wrapper {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+  z-index: 1;
+  max-width:600px;
+}
+
+.project-image-wrapper {
+  position: relative;
+  .project-image {
+    width: 450px;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+  }
+  .pond-image {
+    position: absolute;
+    bottom: 74px;
+    left: 0;
+    right: -70px;
+    margin: auto;
+    height: 70%;
+  }
+}
+.projects-paragraph {
+  color: $primaryBlack;
+  font-size: 1.5rem;
+  display: inline;
+  margin: 0;
+  background: $green;
+  box-shadow:5px 0 0 #000, -5px 0 0 $green;
+    padding: 5px 0;
+}
+
+.project-card {
+  padding: 16px;
+  border: 1px solid black;
+  margin: 16px;
+}
+
+#cloud-6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#cloud-7 {
+  position: absolute;
+  top: 50px;
+  right: -20px;
+  z-index: 2;
+  width: 75px;
+}
+
+#cloud-8 {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  z-index: 2;
+  width: 40px;
+}

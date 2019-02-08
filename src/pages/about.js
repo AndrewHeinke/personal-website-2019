@@ -1,22 +1,30 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import ProfileImg from '../images/profile.jpg'
+import './about.scss'
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About Andrew Heinke" keywords={[`andrew`, `heinke`, `about`]} />
     <h1> About </h1>
-    <p>
-      Lorem Khaled Ipsum is a major key to success.To be successful you’ ve got
-      to work hard, to make history, simple, you’ ve got to make it.The weather
-      is amazing, walk with me through the pathway of more success.Take this
-      journey with me, Lion!I’ m giving you cloth talk, cloth.Special cloth
-      alert, cut from a special cloth.Don’ t ever play yourself.Give thanks to
-      the most high.The first of the month is coming, we have to get money, we
-      have no choice.It cost money to eat and they don’ t want you to
-      eat.Special cloth alert.The other day the grass was brown, now it’ s green
-      because I ain’ t give up.Never surrender.
-    </p>
+    <div className="profile-wrapper">
+      <div className="profile-picture">
+        <img src={ProfileImg} alt="Andrew Heinke" />
+        <svg
+          viewBox="0 0 600 600"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g transform="translate(300,300)">
+            <path d="M94.8,-140.4C126.4,-127.1,158.3,-107,181.8,-76.8C205.3,-46.6,220.4,-6.4,213.6,29.6C206.7,65.6,177.8,97.3,150.6,132.9C123.5,168.5,98.1,208,62.8,222.4C27.4,236.7,-17.8,225.8,-66.9,216.5C-115.9,207.2,-168.7,199.6,-196.9,169.3C-225.2,139.1,-228.9,86.3,-225.6,38.9C-222.4,-8.4,-212.2,-50.3,-200.1,-97.4C-188,-144.5,-174,-196.7,-140.3,-209.2C-106.7,-221.7,-53.3,-194.3,-10.9,-177.4C31.5,-160.4,63.1,-153.8,94.8,-140.4Z" fill="#0DAB76" />
+          </g>
+        </svg>
+      </div>
+      <p>
+        Andrew Heinke is a web developer currently living in Austin Texas. JavaScript is his language of choice writing React applications and developing components at USAA as part of the Design Language Systems team.
+      </p>
+    </div>
+
     <div className="testimonial-wrapper">
      <p>"Though I have tried and tried, I have never met Andrew before."</p>
      <div className="testimonial-author-wrapper">
