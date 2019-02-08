@@ -8,7 +8,7 @@ import { Tooltip } from 'react-tippy';
 import 'react-tippy/dist/tippy.css'
 
 const Footer = ({ children }) => (
-  <footer>
+  <footer className="primary-black">
     <Container>
     <Row>
       <Col lg={6}>
