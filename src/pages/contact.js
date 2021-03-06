@@ -5,7 +5,7 @@ import SEO from '../components/seo'
 import { Grid, Row, Col } from 'react-flexbox-grid'
 import clap from '../images/clap.png'
 import './contact.scss'
-import Anime from 'react-anime'
+import Anime, {anime} from 'react-anime';
 
 const ContactPage = ({}) => (
   <FluidLayout>
@@ -22,12 +22,13 @@ const ContactPage = ({}) => (
            direction="alternate"
            delay={(el, index) => index * 500}
            translateY='-1rem'
-           scale={[.9, 1]}>
-          <img
-            src={clap}
-            className="contact-image"
-            alt="Clapping hands 3d illustration characters"
-          />
+           scale={[.9, 1]}
+          >
+              <img
+                src={clap}
+                className="contact-image"
+                alt="Clapping hands 3d illustration characters"
+              />
           </Anime>
           <h1 className="contact-heading">Let's get in touch</h1>
           <p>Want to know more about what I've been working on, shoot me an email and I would</p>

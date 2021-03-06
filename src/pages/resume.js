@@ -13,9 +13,7 @@ const ResumePage = () => (
 			<p className="name"><strong>Andrew</strong> Heinke</p>
 			<h1 className="job-title">Resume</h1>
 			<span className="email">andrew.j.heinke@gmail.com</span>
-
-			<h2 className="lead">Half designer, half developer. <span className="nowrap"><span role="img" aria-label="Powered">🔋</span> by <span role="img" aria-label="Tacos">🌮</span> & Pop-Tarts. </span>
-A creative with coding skills, I create things that look good.</h2>
+			<h2 className="lead">Half designer, half developer. <span className="nowrap">I turn <span role="img" aria-label="Tacos">🌮</span> into <span role="img" aria-label="Code">👨‍💻</span>.</span></h2>
 		</div>
 	</div>
   <div className="bg-wrapper">
@@ -24,7 +22,7 @@ A creative with coding skills, I create things that look good.</h2>
     <Col md={6}>
     <div className="job-wrapper">
 		  <h3 className="line">Work Experience</h3>
-      <h4 className="job">UI Developer at <a className="company" href="https://www.usaa.com/careers/design" target="_blank" rel="noopener noreferrer">USAA</a></h4>
+      <h4 className="job">Front End Software Engineer at <a className="company" href="https://www.usaa.com/careers/design" target="_blank" rel="noopener noreferrer">USAA</a></h4>
       <p className="time">Apr 2017 - Present</p>
       <p>Building accessible, reusable ReactJS components as part of design language team to create a unified brand standard across digital spaces. Updating internal and consumer facing web applications with NodeJS, ReactJS, Redux. Integrating third party APIs with web applications to simplify workflows and automate tasks.</p>
       </div>
