@@ -16,7 +16,7 @@
     "gatsby-plugin-typography": "^3.0.0",
     "gatsby-source-filesystem": "^3.0.0",
     "gatsby-transformer-sharp": "^3.0.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "npm": "^6.7.0",
     "prop-types": "^15.6.2",
     "react": "^17.0.1",
