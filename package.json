@@ -6,7 +6,7 @@
   "author": "Andrew Heinke <andrew.j.heinke@gmail.com>",
   "dependencies": {
     "animejs": "^3.0.1",
-    "gatsby": "^3.0.3",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-image": "^1.0.0",
     "gatsby-plugin-manifest": "^3.0.0",
     "gatsby-plugin-offline": "^4.0.0",
